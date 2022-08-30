@@ -2,7 +2,7 @@
 
 import React, { Component } from 'react';
 import "@fontsource/montserrat";
-/*import "bootstrap-icons/font/bootstrap-icons.css";*/
+import "bootstrap-icons/font/bootstrap-icons.css";
 import { Container, Row, Col, Nav, NavItem, NavLink, Form } from 'react-bootstrap';
 import Tools from './sections/Tools';
 import Contact from './sections/Contact';
