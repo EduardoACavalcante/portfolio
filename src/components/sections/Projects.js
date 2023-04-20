@@ -19,33 +19,24 @@ class Projects extends Component{
                         </div>
                       </Col>
                       <Col md={4}>
-                        <div className="p-3 border d-flex justify-content-center align-items-center project-div square" style={{minHeight: "330px", color: "var(--secondary-color)"}}>
-                          <div className="ml-auto mr-auto">
-                            <div>Em breve</div>
-                            <div style={{marginLeft: "44px", marginTop: "5px"}}>
-                            <div className="dot-flashing"></div>
-                            </div>
-                          </div>
+                        <div className="p-0 border" style={{minHeight: "330px"}}>
+                          <a href="https://inline-extractor.vercel.app" className="text-center">
+                            <img src="projects/inline-extractor.png" style={{width: "100%"}}/>
+                          </a>
                         </div>
                       </Col>
                       <Col md={4}>
-                        <div className="p-3 border d-flex justify-content-center align-items-center project-div square" style={{minHeight: "330px", color: "var(--secondary-color)"}}>
-                          <div className="ml-auto mr-auto">
-                            <div>Em breve</div>
-                            <div style={{marginLeft: "44px", marginTop: "5px"}}>
-                            <div className="dot-flashing"></div>
-                            </div>
-                          </div>
+                        <div className="p-0 border" style={{minHeight: "330px"}}>
+                          <a href="https://chee.com.br" className="text-center">
+                            <img src="projects/chega-hora-essa.png" style={{width: "100%"}}/>
+                          </a>
                         </div>
                       </Col>
                       <Col md={4}>
-                        <div className="p-3 border d-flex justify-content-center align-items-center project-div square" style={{minHeight: "330px", color: "var(--secondary-color)"}}>
-                          <div className="ml-auto mr-auto">
-                            <div>Em breve</div>
-                            <div style={{marginLeft: "44px", marginTop: "5px"}}>
-                            <div className="dot-flashing"></div>
-                            </div>
-                          </div>
+                        <div className="p-0 border" style={{minHeight: "330px"}}>
+                          <a href="https://eduardocavalcante.vercel.app" className="text-center">
+                            <img src="projects/portifolio.png" style={{width: "100%"}}/>
+                          </a>
                         </div>
                       </Col>
                       <Col md={4} className="d-none d-md-block">
