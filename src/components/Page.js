@@ -40,7 +40,7 @@ class Page extends Component {
             r.style.setProperty('--bg-color', 'white');
             r.style.setProperty('--primary-color', 'black');
             r.style.setProperty('--secondary-color', 'black');
-            r.style.setProperty('--scrollit-color', 'linear-gradient(45deg, #d6e7f9, transparent)');
+            r.style.setProperty('--scrollit-color', 'linear-gradient(64deg, #d6e7f9, transparent)');
             r.style.setProperty('--sidebar-border', 'none');
             
             r.style.setProperty('--icon-color', 'invert(0%) drop-shadow(3px 5px 2px #0085c847)');

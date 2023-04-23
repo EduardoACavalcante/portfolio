@@ -6,6 +6,8 @@
   --secondary-color: white;
   --stars-color: blue;
   --icon-color: invert(100%) drop-shadow(3px 5px 2px #0085c847);
+  --scrollit-color : inherit;
+  --sidebar-border : 1px solid #181818;
 }
 
 html {
