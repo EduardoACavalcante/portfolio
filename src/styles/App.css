@@ -186,7 +186,7 @@ html {
 }
 
 .scrollit {
-  background: var(--stars-color);
+  background: var(--scrollit-color);
 }
 
 .hover-underline-animation:after {
