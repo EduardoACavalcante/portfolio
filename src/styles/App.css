@@ -62,17 +62,17 @@ html {
 
 }
 
-/*@media(max-width: 600px) {
-  .presentation-text {
-    width: auto;
+@media(max-width: 600px) {
+  .letters{
+    font-size: 50px;
   }
 }
 
 @media(min-width: 600px) {
-  .presentation-text {
-    width: 500px;
+  .letters{
+    font-size: 65px;
   }
-}*/
+}
 
 .color-light-blue {
   color: #0086c9;
@@ -209,7 +209,6 @@ html {
 }*/
 
 .letters {
-  font-size: 65px;
   position: relative;
   display: none;
 }
