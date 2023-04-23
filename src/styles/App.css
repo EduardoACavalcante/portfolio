@@ -26,7 +26,7 @@ html {
 #left-col {
   border: var(--sidebar-border);
   border-top: none;
-  border-bottom: none;
+  /*border-bottom: none;*/
 }
 
 .container-fluid {
