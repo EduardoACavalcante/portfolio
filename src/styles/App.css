@@ -187,6 +187,7 @@ html {
 
 .scrollit {
   background: var(--scrollit-color);
+  border: none;
 }
 
 .hover-underline-animation:after {
