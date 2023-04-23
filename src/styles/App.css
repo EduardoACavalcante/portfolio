@@ -56,12 +56,13 @@ html {
 .presentation-text {
   font-size: 50px;
   color: var(--secondary-color);
-  /*width: 500px;*/
+  width: 500px;
   min-height: 700px;
+  max-width: 100%;
 
 }
 
-@media(max-width: 600px) {
+/*@media(max-width: 600px) {
   .presentation-text {
     width: auto;
   }
@@ -71,7 +72,7 @@ html {
   .presentation-text {
     width: 500px;
   }
-}
+}*/
 
 .color-light-blue {
   color: #0086c9;
