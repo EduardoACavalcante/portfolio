@@ -40,7 +40,7 @@ class Tools extends Component{
                   <div className="" style={{borderBottom: "5px solid #0087ca", width: "400px", textAlign: "center", margin: "35px 0 10px", fontSize: "35px", fontWeight: "bold", color: "var(--secondary-color)"}}>Ferramentas utilizadas</div>
                 </Col>
                 <Col lg={6} md={5} xs={7}>
-                  <Row>
+                  <Row p={2}>
                     <Col lg={6} className="card" onMouseEnter={this.cardSet} onTouchStart={this.cardSet} onPointerDown={this.cardSet}>
                       <img className="card-img-top" src="tech-logos/jquery.png" alt="Card image cap" />
                       <div className="card-body">
@@ -124,7 +124,7 @@ class Tools extends Component{
                     </Col>
                   </Row>
                 </Col>
-                <Col lg={6} md={5} className="d-md-block d-lg-block d-none">
+                <Col lg={6} md={5} className="d-md-block d-lg-block d-none p-2">
                   <div className="card sticky-top">
                     <img className="card-img-top" src={this.state.toolImg} alt="Card image cap" />
                     <div className="card-body">
