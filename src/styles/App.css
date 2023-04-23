@@ -22,7 +22,7 @@ html {
 }
 
 #left-col {
-  border: 1px solid #181818;
+  border: var(--sidebar-border);
   border-top: none;
   border-bottom: none;
 }
@@ -183,6 +183,10 @@ html {
   display: inline-block;
   position: relative;
 
+}
+
+.scrollit {
+  background: var(--stars-color);
 }
 
 .hover-underline-animation:after {

@@ -9,7 +9,7 @@ class Projects extends Component {
         <div>
           <Row>
             <Col sm={12} xs={12} className="d-flex" >
-              <div className="sticky-top" style={{ borderBottom: "5px solid #0087ca", width: "400px", margin: "35px 0 10px", fontSize: "35px", fontWeight: "bold", color: "var(--secondary-color)" }}>Contatos</div>
+              <div className="sticky-top" style={{ borderBottom: "5px solid #0087ca", width: "400px", margin: "35px 0 10px", fontSize: "35px", fontWeight: "bold", color: "var(--secondary-color)" }}>Projetos</div>
             </Col>
           </Row>
           <Row>
