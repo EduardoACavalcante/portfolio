@@ -40,7 +40,7 @@ class Tools extends Component{
                   <div className="" style={{borderBottom: "5px solid #0087ca", width: "400px", textAlign: "center", margin: "35px 0 10px", fontSize: "35px", fontWeight: "bold", color: "var(--secondary-color)"}}>Ferramentas utilizadas</div>
                 </Col>
                 <Col lg={6} md={5} xs={7}>
-                  <Row p={2}>
+                  <Row className="p-2">
                     <Col lg={6} className="card" onMouseEnter={this.cardSet} onTouchStart={this.cardSet} onPointerDown={this.cardSet}>
                       <img className="card-img-top" src="tech-logos/jquery.png" alt="Card image cap" />
                       <div className="card-body">
