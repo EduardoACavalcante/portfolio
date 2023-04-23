@@ -124,7 +124,7 @@ class Tools extends Component{
                     </Col>
                   </Row>
                 </Col>
-                <Col lg={6} md={5} d={{md: "block", lg: "block", sm: "none"}}>
+                <Col lg={6} md={5} className="d-md-block d-lg-block d-none">
                   <div className="card sticky-top">
                     <img className="card-img-top" src={this.state.toolImg} alt="Card image cap" />
                     <div className="card-body">
