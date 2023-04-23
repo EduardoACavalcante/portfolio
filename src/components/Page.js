@@ -42,6 +42,7 @@ class Page extends Component {
             r.style.setProperty('--secondary-color', 'black');
             r.style.setProperty('--scrollit-color', 'linear-gradient(64deg, #d6e7f9, transparent)');
             r.style.setProperty('--sidebar-border', 'none');
+            r.style.setProperty('--left-col-border', '1px solid #1a1a1a');
             
             r.style.setProperty('--icon-color', 'invert(0%) drop-shadow(3px 5px 2px #0085c847)');
             
@@ -55,6 +56,8 @@ class Page extends Component {
             r.style.setProperty('--icon-color', 'invert(100%) drop-shadow(3px 5px 2px #0085c847)');
             r.style.setProperty('--scrollit-color', 'inherit');
             r.style.setProperty('--sidebar-border', '1px solid #181818');
+            r.style.setProperty('--left-col-border', '1px solid #dddbdb');
+            
             
             this.setState({theme : "dark"});
           }

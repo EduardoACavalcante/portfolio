@@ -8,6 +8,7 @@
   --icon-color: invert(100%) drop-shadow(3px 5px 2px #0085c847);
   --scrollit-color : inherit;
   --sidebar-border : 1px solid #181818;
+  --left-col-border : 1px solid #dddbdb;
 }
 
 html {
@@ -69,7 +70,7 @@ html {
     font-size: 50px;
   }
   #left-col{
-    border-bottom: 1px solid #dddbdb;
+    border-bottom: var(--left-col-border);
   }
 }
 
