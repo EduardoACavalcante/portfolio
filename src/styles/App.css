@@ -79,11 +79,21 @@ html {
 
 @media(max-width: 600px) {
   .letters {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   #left-col {
     border-bottom: var(--left-col-border);
+  }
+
+  .presentation-text-mob {
+    top: -14px;
+    display: inline;
+    position: relative;
+  }
+
+  #home {
+    padding: 35px 50px 40px;
   }
 }
 
@@ -94,6 +104,16 @@ html {
 
   #left-col {
     border-bottom: none;
+  }
+
+  .presentation-text-mob {
+    top: auto;
+    display: inline;
+    position: relative;
+  }
+
+  #home {
+    padding: 135px 50px 40px;
   }
 }
 
@@ -262,9 +282,12 @@ html {
   color: #0087ca;
 }
 
+/*
+Adicionado ao mediaquery
 #home {
   padding: 135px 50px 40px;
 }
+*/
 
 #contact,
 #projects,
