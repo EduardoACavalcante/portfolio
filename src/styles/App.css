@@ -86,12 +86,6 @@ html {
     border-bottom: var(--left-col-border);
   }
 
-  .presentation-text-mob {
-    top: -14px;
-    display: inline;
-    position: relative;
-  }
-
   #home {
     padding: 35px 50px 40px;
   }
@@ -111,11 +105,7 @@ html {
     border-bottom: none;
   }
 
-  .presentation-text-mob {
-    top: auto;
-    display: inline;
-    position: relative;
-  }
+  
 
   #home {
     padding: 135px 50px 40px;
@@ -125,6 +115,26 @@ html {
     top: -9px;
   }
 
+}
+
+@media(max-width: 397px) {
+
+  .presentation-text-mob {
+    top: -14px;
+    display: inline;
+    position: relative;
+  }
+  
+}
+
+@media(min-width: 397px) {
+  
+  .presentation-text-mob {
+    top: auto;
+    display: inline;
+    position: relative;
+  }
+  
 }
 
 .color-light-blue {
