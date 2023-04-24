@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --primary-color-dark: #868686;
   --bg-color: black;
   --background: left bottom;
@@ -9,6 +9,19 @@
   --scrollit-color : inherit;
   --sidebar-border : 1px solid #181818;
   --left-col-border : 1px solid #1a1a1a;
+}*/
+
+:root {
+  --primary-color-dark: black;
+  --bg-color: white;
+  --background: right bottom;
+  --primary-color: white;
+  --secondary-color: black;
+  --stars-color: white;
+  --icon-color: invert(0%) drop-shadow(3px 5px 2px #0085c847);
+  --scrollit-color: linear-gradient(64deg, #d6e7f9, transparent);
+  --sidebar-border: none;
+  --left-col-border: 1px solid #dddbdb;
 }
 
 html {
@@ -66,19 +79,21 @@ html {
 }
 
 @media(max-width: 600px) {
-  .letters{
+  .letters {
     font-size: 50px;
   }
-  #left-col{
+
+  #left-col {
     border-bottom: var(--left-col-border);
   }
 }
 
 @media(min-width: 600px) {
-  .letters{
+  .letters {
     font-size: 65px;
   }
-  #left-col{
+
+  #left-col {
     border-bottom: none;
   }
 }

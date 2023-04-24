@@ -17,7 +17,7 @@ class Page extends Component {
     constructor(props){
         super(props);
         this.state = { 
-          theme : "dark"
+          theme : "light"
         }
         this.themeSet = this.themeSet.bind(this);
     }
