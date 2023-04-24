@@ -274,7 +274,7 @@ html {
 .letters:after {
   position: absolute;
   content: attr(content);
-  top: -9px;
+  /* Adicionado ao Mediaquery top: -9px;*/
   left: 0;
   -webkit-transition: all 750ms;
   -moz-transition: all 750ms;
