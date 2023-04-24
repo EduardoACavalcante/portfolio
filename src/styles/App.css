@@ -95,6 +95,11 @@ html {
   #home {
     padding: 35px 50px 40px;
   }
+
+  .letters:after {
+    top: -6px;
+  }
+
 }
 
 @media(min-width: 600px) {
@@ -115,6 +120,11 @@ html {
   #home {
     padding: 135px 50px 40px;
   }
+
+  .letters:after {
+    top: -9px;
+  }
+
 }
 
 .color-light-blue {
