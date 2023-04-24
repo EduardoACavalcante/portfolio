@@ -25,8 +25,8 @@ class Home extends Component{
                   <span className="letters typing-effect" content="m">m</span>
                   <span className="letters typing-effect" content="e ">e </span>
                 </span>
-                <span className="letters typing-effect" content="é ">é </span>
-                <span className="word">
+                <span className="letters typing-effect presentation-text-mob" content="é ">é </span>
+                <span className="word presentation-text-mob">
                   <span className="letters typing-effect" content="E">E</span>
                   <span className="letters typing-effect" content="d">d</span>
                   <span className="letters typing-effect" content="u">u</span>
