@@ -12,16 +12,15 @@
 }*/
 
 :root {
-  --primary-color-dark: black;
-  --bg-color: white;
-  --background: right bottom;
-  --primary-color: white;
-  --secondary-color: black;
   --stars-color: white;
-  --icon-color: invert(0%) drop-shadow(3px 5px 2px #0085c847);
+  --background: right bottom;
+  --bg-color: white;
+  --primary-color: black;
+  --secondary-color: black;
   --scrollit-color: linear-gradient(64deg, #d6e7f9, transparent);
   --sidebar-border: none;
   --left-col-border: 1px solid #dddbdb;
+  --icon-color: invert(0%) drop-shadow(3px 5px 2px #0085c847);
 }
 
 html {
