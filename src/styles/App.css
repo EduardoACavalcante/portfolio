@@ -84,6 +84,8 @@ html {
 
   .blinking-cursor {
     font-size: 40px;
+    top: -16px;
+    position: relative;
   }
 
   #left-col {
@@ -107,6 +109,8 @@ html {
 
   .blinking-cursor {
     font-size: 65px;
+    top: -5px;
+    position: relative;
   }
 
   #left-col {
