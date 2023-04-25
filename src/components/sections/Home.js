@@ -14,12 +14,12 @@ class Home extends Component{
                 </span>
                 <span content="," className="typing-effect">,</span>
                 <br/>
-                <span className="word">
+                <span className="word presentation-text-mob2">
                   <span className="letters typing-effect" content="m">m</span>
                   <span className="letters typing-effect" content="e">e</span>
                   <span className="letters typing-effect" content="u ">u </span>
                 </span>
-                <span className="word">
+                <span className="word presentation-text-mob2">
                   <span className="letters typing-effect" content="n">n</span>
                   <span className="letters typing-effect" content="o">o</span>
                   <span className="letters typing-effect" content="m">m</span>

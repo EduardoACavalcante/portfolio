@@ -136,6 +136,12 @@ html {
     display: inline;
     position: relative;
   }
+
+  .presentation-text-mob2 {
+    display: inline;
+    position: relative;
+    top: -6px;
+  }
   
 }
 
@@ -143,6 +149,11 @@ html {
   
   .presentation-text-mob {
     top: auto;
+    display: inline;
+    position: relative;
+  }
+
+  .presentation-text-mob2 {
     display: inline;
     position: relative;
   }
