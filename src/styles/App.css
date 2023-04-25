@@ -82,6 +82,10 @@ html {
     font-size: 40px;
   }
 
+  .blinking-cursor {
+    font-size: 40px;
+  }
+
   #left-col {
     border-bottom: var(--left-col-border);
   }
@@ -98,6 +102,10 @@ html {
 
 @media(min-width: 600px) {
   .letters {
+    font-size: 65px;
+  }
+
+  .blinking-cursor {
     font-size: 65px;
   }
 
@@ -337,7 +345,7 @@ Adicionado ao mediaquery
 /*cursor blinking*/
 .blinking-cursor {
   font-weight: bold;
-  font-size: 65px;
+  /*Add on Mediaquery: font-size: 65px;*/
   color: #2E3D48;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;
