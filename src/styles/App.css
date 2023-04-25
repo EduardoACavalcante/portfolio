@@ -134,7 +134,7 @@ html {
     display: inline;
     position: relative;
   }
-  
+
 }
 
 .color-light-blue {
@@ -579,4 +579,8 @@ Adicionado ao mediaquery
 
 #svgImage {
   margin-top: 8px;
+}
+
+#projects {
+  margin-bottom: 0;
 }
