@@ -18,7 +18,7 @@ class Contact extends Component{
                 <Row>
                   <a href="https://www.linkedin.com/in/eduardo-cavalcante-9ba898225/">
                     <Col sm={6}>
-                      <img src="https://icons-for-free.com/iconfiles/png/512/linked+linkedin+logo+social+icon-1320191784782940875.png" style={{height: "150px"}}></img>
+                      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" style={{height: "150px"}}></img>
                       Linkedin
                     </Col>
                   </a>
